@@ -1,0 +1,63 @@
+{
+  "name": "default-startup-bookmarks",
+  "folder_specs": [
+    { "id": "cat-01", "name": "01 SEO & Marketing" },
+    { "id": "cat-02", "name": "02 AI Learning & Theory" },
+    { "id": "cat-03", "name": "03 AI Frameworks & Agents" },
+    { "id": "cat-04", "name": "04 AI Tools & Platforms" },
+    { "id": "cat-05", "name": "05 Development & Web Building" },
+    { "id": "cat-06", "name": "06 Design & Assets" },
+    { "id": "cat-07", "name": "07 Product & Indie Hacking" },
+    { "id": "cat-08", "name": "08 News & Community" },
+    { "id": "cat-09", "name": "09 Accounts & Infrastructure" }
+  ],
+  "rules": [
+    {
+      "folder_id": "cat-01",
+      "hosts": ["ahrefs.com", "similarweb.com", "similarsites.com", "aitdk.com", "semrush.com"],
+      "keywords": ["seo", "keyword", "marketing", "traffic", "rich-results", "backlinks", "growth", "searchsuggest"]
+    },
+    {
+      "folder_id": "cat-02",
+      "hosts": ["pytorch.org", "deeplearning.ai", "coursera.org", "datawhalechina.github.io", "docs.llamaindex.ai"],
+      "keywords": ["theory", "course", "tutorial", "rag", "embeddings", "ethics", "learn", "基础"]
+    },
+    {
+      "folder_id": "cat-03",
+      "hosts": ["langchain-ai.github.io", "modelcontextprotocol.io", "mcp.so", "langchain.com", "deepsense.ai"],
+      "keywords": ["agent", "langgraph", "langchain", "mcp", "llm application", "chain of thought", "llms.txt"]
+    },
+    {
+      "folder_id": "cat-04",
+      "hosts": ["toolify.ai", "bubble.io", "same.new", "hedra.com", "labs.google", "artificialanalysis.ai"],
+      "keywords": ["ai tool", "promptbase", "readdy", "trickle", "gpts", "consensus", "ai"]
+    },
+    {
+      "folder_id": "cat-05",
+      "hosts": ["web.dev", "developer.chrome.com", "reactbits.dev", "remix.run", "trpc.io", "uiverse.io"],
+      "keywords": ["react", "tailwind", "eslint", "javascript", "devtools", "code", "web", "frontend", "resend"]
+    },
+    {
+      "folder_id": "cat-06",
+      "hosts": ["dribbble.com", "behance.net", "pixabay.com", "stockcake.com", "mobbin.com", "snappify.com"],
+      "keywords": ["design", "mockup", "image", "assets", "font", "ui", "screenshot", "inspiration"]
+    },
+    {
+      "folder_id": "cat-07",
+      "hosts": ["producthunt.com", "indiehackers.com", "wip.co", "trustmrr.com", "maliquankai.com"],
+      "keywords": ["product", "startup", "indie", "mrr", "launch", "founder"]
+    },
+    {
+      "folder_id": "cat-08",
+      "hosts": ["news.ycombinator.com", "daily.dev", "blog.google", "guizang.ai"],
+      "keywords": ["news", "blog", "community", "newsletter", "hacker news", "chrome ai"]
+    },
+    {
+      "folder_id": "cat-09",
+      "hosts": ["spaceship.com", "upwork.com", "fauxid.com", "hero-sms.com", "facebook.com"],
+      "keywords": ["domain", "account", "dashboard", "billing", "virtual number", "freelancer", "profile", "infrastructure"]
+    }
+  ],
+  "fallback_folder_id": "cat-08"
+}
+

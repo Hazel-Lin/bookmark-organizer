@@ -1,0 +1,68 @@
+{
+  "roots": {
+    "bookmark_bar": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "date_added": "1",
+                  "id": "49",
+                  "name": "Ahrefs Blog",
+                  "type": "url",
+                  "url": "https://ahrefs.com/blog"
+                },
+                {
+                  "date_added": "1",
+                  "id": "50",
+                  "name": "LangChain Docs",
+                  "type": "url",
+                  "url": "https://python.langchain.com/"
+                }
+              ],
+              "date_added": "1",
+              "date_modified": "1",
+              "id": "167",
+              "name": "Nested",
+              "type": "folder"
+            },
+            {
+              "date_added": "1",
+              "id": "51",
+              "name": "Product Hunt",
+              "type": "url",
+              "url": "https://www.producthunt.com/"
+            }
+          ],
+          "date_added": "1",
+          "date_modified": "1",
+          "id": "166",
+          "name": "AI 出海",
+          "type": "folder"
+        }
+      ],
+      "date_added": "1",
+      "date_modified": "1",
+      "id": "1",
+      "name": "Bookmarks bar",
+      "type": "folder"
+    },
+    "other": {
+      "children": [],
+      "date_added": "1",
+      "date_modified": "1",
+      "id": "2",
+      "name": "Other bookmarks",
+      "type": "folder"
+    },
+    "synced": {
+      "children": [],
+      "date_added": "1",
+      "date_modified": "1",
+      "id": "3",
+      "name": "Mobile bookmarks",
+      "type": "folder"
+    }
+  }
+}
